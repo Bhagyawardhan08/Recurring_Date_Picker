@@ -30,6 +30,8 @@ Daily
 Weekly
 Monthly
 Yearly
+
+
 Customization: Fine-tune recurrence options such as:
 
 Every X days/weeks/months/years
@@ -42,13 +44,17 @@ Visual Preview: A mini-calendar displays the selected recurring dates within the
 Technical Stack
 Framework: Next.js
 Styling: Tailwind CSS (or your choice of CSS framework)
-State Management: Zustand, Jotai, or React Context API
-Development Environment: Cloud-based IDEs such as CodeSandbox, StackBlitz, Gitpod, or GitHub Codespaces
+State Management: Zustand
+Development Environment: Cloud-based IDEs such as CodeSandbox
 Code Structure
-The component is modular and cleanly structured for reusability and maintainability. Key features include:
+The component is modular and cleanly structured for reusability and maintainability.
 
-Separation of concerns: The component is broken down into smaller, reusable parts (recurrence options, date picker, preview, etc.).
+Key features include:
+
+The component is broken down into smaller, reusable parts (recurrence options, date picker, preview, etc.).
 Clean and well-documented code: Each part of the code is written with clarity, maintainability, and documentation in mind.
+
+
 Testing
 Unit Tests: Individual logic for each component is tested using unit tests.
 Integration Test: A comprehensive integration test ensures the component functions as expected.
