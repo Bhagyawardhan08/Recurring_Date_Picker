@@ -2,16 +2,16 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, install all dependencies:
+```bash
+npm install
+
+```
+Then, Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -20,17 +20,43 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+Reusable Date Picker Component for Recurring Dates
+This repository contains a reusable Date Picker component built in React (with Next.js), designed to allow users to select recurring dates, similar to the feature found in the TickTick app.
 
-To learn more about Next.js, take a look at the following resources:
+Features
+Recurring Options: Users can select recurring dates with customizable patterns:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Daily
+Weekly
+Monthly
+Yearly
+Customization: Fine-tune recurrence options such as:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Every X days/weeks/months/years
+Select specific days of the week
+Choose the nth day of the month (e.g., the second Tuesday)
+Date Range: Users can set a start date and optionally an end date for the recurring pattern.
 
-## Deploy on Vercel
+Visual Preview: A mini-calendar displays the selected recurring dates within the date picker for an intuitive user experience.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Technical Stack
+Framework: Next.js
+Styling: Tailwind CSS (or your choice of CSS framework)
+State Management: Zustand, Jotai, or React Context API
+Development Environment: Cloud-based IDEs such as CodeSandbox, StackBlitz, Gitpod, or GitHub Codespaces
+Code Structure
+The component is modular and cleanly structured for reusability and maintainability. Key features include:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Separation of concerns: The component is broken down into smaller, reusable parts (recurrence options, date picker, preview, etc.).
+Clean and well-documented code: Each part of the code is written with clarity, maintainability, and documentation in mind.
+Testing
+Unit Tests: Individual logic for each component is tested using unit tests.
+Integration Test: A comprehensive integration test ensures the component functions as expected.
+
+Screencast
+A short screencast (5-10 minutes) is included to demonstrate:
+
+The functionality of the date picker component
+A walkthrough of the code structure and design decisions
+Note: My face is visible in the screencast, as required.
+
